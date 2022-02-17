@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/*Шапка*/
+.header{
+	width:100%;
+	z-index:1000;
+	background-color: #ffffff;
+	display:flex;
+	flex-flow: row nowrap;
+
+}
+
+/*Тело*/
+html,body{
+	
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    
+	color: #ffffff;
+	background-image: url(/img/BlackColor.jpg);
+}
+
+/*Иконки*/
+.card_group{
+	max-width:2000px;
+	display:flex;
+	flex-flow: row wrap;
+}
+
+.product{
+	display:inline-block;
+	margin: 10px;
+	background-color: #ffffff;
+
+}
+.product img{
+	max-width:150px;
+	max-height:150px;
+}
+/*Футер*/
+.footer{
+	
+	color:#ffffff;
+}
+/*
+	.LeftSideProduct{
+		background-image: url('../img/Lich.jpg');
+		background-color: #0000ff;
+		padding:0;
+		width:100%;
+		height:100%;
+	}
+	
+	.RightSideProduct{
+		background-color: #ff0080;
+		width:100%;
+		height:100%;
+	}*/
+	
