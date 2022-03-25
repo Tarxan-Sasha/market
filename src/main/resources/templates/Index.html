@@ -21,9 +21,32 @@
 	</div>
 	<div class="row">
 		<div class="container col-xs-10 col-sm-10 col-md-10 col-lg-10">
-			<div>
-				<p>Каталог</p>
-			</div>
+			
+			
+			<table class="table table-striped">
+				<tr>
+					<th class="table-success">Каталог</th>
+					<th class="table-warning">Базовый</th>
+					<th class="table-danger">Улучшеный</th>
+				</tr>	
+				<tr>
+					<td class="table-success">Lich</td>
+					<td class="table-warning" th:utext="${vOutput01}"></td>
+					<td class="table-danger" th:utext="${vOutput02}"></td>
+				</tr>
+				<tr>
+					<td class="table-success">Zombie</td>
+					<td class="table-warning" th:utext="${vOutput11}"></td>
+					<td class="table-danger" th:utext="${vOutput12}"></td>
+				</tr>
+				<tr>
+					<td class="table-success">Skelet</td>
+					<td class="table-warning" th:utext="${vOutput21}"></td>
+					<td class="table-danger" th:utext="${vOutput22}"></td>
+				</tr>
+			</table>
+			
+			
 			<div class="card_group">
 				<div class="product card border border-white">
 					<img src="/img/Lich.jpg" class="card-img-top" alt="Товар">

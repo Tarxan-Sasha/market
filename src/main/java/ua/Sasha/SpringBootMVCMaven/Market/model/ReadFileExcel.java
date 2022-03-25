@@ -10,7 +10,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;  
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;  
 
-public class ReadFileExcel {
+public class ReadFileExcel{
 	public String ReadCellData(int vRow, int vColumn){
 		String value=null;// значение для хранения ячейки значения
 		Workbook wb=null;//инициализация Workbook null
@@ -31,11 +31,12 @@ public class ReadFileExcel {
 		value=cell.getStringCellValue();//Получение значения ячейки
 		return value;//Возвращение значения ячейки
 	}
+	/*
 	public static void main(String args []){
 		ReadFileExcel readFileExcel=new ReadFileExcel();//Обьект класса
 		//чтение значений 2 ряд и 2 столбик
 		String vOutput=readFileExcel.ReadCellData(1, 2);
 		System.out.println(vOutput);
 	}
-	
+	*/
 }

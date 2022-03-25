@@ -22,6 +22,11 @@ html,body{
 	background-image: url(/img/BlackColor.jpg);
 }
 
+
+.Lich:hover{
+	
+}
+
 /*Иконки*/
 .card_group{
 	max-width:2000px;
